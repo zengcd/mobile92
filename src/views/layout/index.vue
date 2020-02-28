@@ -11,6 +11,15 @@
     <div class="my-wrapper" >
       <router-view></router-view>
     </div>
+    <!-- 标签栏，特点：页面底部显示
+    van-tabbar
+    router:开启路由
+    v-model:设置指点标签激活，如果使用router路由模式，就不用设置这个属性了
+    van-tabbar-item
+    to:设置路由跳转地址的
+    icon:标签显示图标的
+
+     -->
     <van-tabbar route>
       <van-tabbar-item to="/home" icon="home-o">首页</van-tabbar-item>
       <van-tabbar-item to="/question"  icon="chat-o">问答</van-tabbar-item>
